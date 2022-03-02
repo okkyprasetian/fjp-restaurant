@@ -84,7 +84,8 @@ a {
 }
 
 .logo-img {
-  scale: 0.8;
+  height: 40px;
+  width: 200px;
 }
 
 .navigations {
@@ -277,4 +278,86 @@ a {
 
 .btn-form:hover {
   background-color: black;
+}
+
+/* ==== MOBILE ==== */
+
+@media screen and (max-width: 768px) {
+
+  :root {
+    font-size: 14px;
+  }
+
+  /* == NAV == */
+  #nav {
+    padding: 0 10%;
+  }
+
+  .logo-img {
+    height: 30px;
+    width: 150px;
+  }
+
+  .navigations {
+    display: none;
+  }
+
+  /* == HOME == */
+  #home {
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .headline {
+    width: 80%;
+    text-align: center;
+  }
+
+  /* == PRODUCT == */
+  #products {
+    height: auto;
+    padding: 5rem 10%;
+    text-align: center;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    margin: 3rem 0;
+  }
+
+  /* == ABOUT == */
+  #about {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .about-left {
+    width: 100%;
+  }
+
+  .about-left h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-left p {
+    margin-bottom: 4rem;
+  }
+
+  .about-right {
+    display: none;
+  }
+
+  /* == CONTAT == */
+  #contact {
+    padding: 10rem 10% 0;
+    text-align: center;
+  }
+
+  #contact h2 {
+    font-size: 2.5rem;
+  }
 }
