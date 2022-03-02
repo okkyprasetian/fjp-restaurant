@@ -14,8 +14,8 @@ function App() {
 
       <div id="home">
         <div className="headline">
-          <div className="hl-top">IT'S GREAT TIME FOR A GOOD TASTE OF BURGER</div>
-          <h1 className="hl-mid"><span className="red underline">BURGER </span> FOR WEEK</h1>
+          <div className="hl-top neue">IT'S GREAT TIME FOR A GOOD TASTE OF BURGER</div>
+          <h1 className="hl-mid alfa"><span className="red underline">BURGER</span> FOR WEEK</h1>
           <p className="hl-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ipsam.</p>
           <button className="btn hl-order">Order</button>
         </div>
