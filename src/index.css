@@ -1,13 +1,84 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Lato&display=swap');
+
+/* ===== GLOBAL ===== */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Lato', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.alfa {
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.neue {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.red {
+  color: red;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* === NAV === */
+#nav {
+  position: fixed;
+  height: 5rem;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15%;
+  border: solid;
+}
+
+.logo-img {
+  scale: 0.8;
+}
+
+.navigations {
+  display: flex;
+}
+
+.navigation {
+  margin: 0 1.5rem;
+}
+
+/* === HOME ===  */
+
+#home {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 768px;
 }
