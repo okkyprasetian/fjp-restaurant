@@ -96,6 +96,16 @@ a {
   color: var(--darkbrown)
 }
 
+.navigation a {
+  padding: 0.2rem 0.8rem;
+  border-radius: 0.5rem;
+}
+
+.navigation a:hover {
+  background-color: red;
+  color: whitesmoke;
+}
+
 /* === HOME ===  */
 
 #home {
@@ -225,18 +235,32 @@ a {
 }
 
 /* === CONTACT === */
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 768px;
+  padding: 10rem 25% 0;
+}
+
+#contact h2 {
+  font-size: 3.5rem;
+  margin-bottom: 5rem;
+}
+
 .form {
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: inherit;
   width: 100%;
 }
 
 .form * {
   height: 3rem;
-  margin: 0.3rem 0;
+  margin: 0.4rem 0;
   padding: 0.5rem 1rem;
   border: none;
+  border-radius: 0.5rem;
   background-color: rgb(24, 23, 23);
   color: white;
   font-size: 1rem;
@@ -249,5 +273,8 @@ a {
 .btn-form {
   background-color: red;
   font-weight: bold;
-  transition: all ease-out 500ms;
+}
+
+.btn-form:hover {
+  background-color: black;
 }

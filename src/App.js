@@ -56,12 +56,12 @@ function App() {
       </div>
 
       <div id="contact">
-        <h2>BOOK YOUR TABLE</h2>
+        <h2 className="alfa">BOOK YOUR TABLE</h2>
         <form className="form">
           <input type="text" placeholder="Your Name" />
           <input type="email" placeholder="Your Email" />
           <textarea name="message" id="message" placeholder="Your request in here..."></textarea>
-          <button className="btn-form" type="submit">BOOK</button>
+          <button className="btn btn-form" type="submit">BOOK</button>
         </form>
       </div>
     </div>
