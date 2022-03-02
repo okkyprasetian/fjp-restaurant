@@ -44,10 +44,15 @@ function App() {
       </div>
 
       <div id="about">
-        <h2>McKingQueen Burger</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero repellat ullam id at molestias reiciendis, dolorum culpa delectus. Similique sunt praesentium dolore quia! Culpa natus fugit eveniet asperiores repellendus cumque!
-        </p>
-        <button className="btn about-readmore">Read More</button>
+        <div className="about-left">
+          <h2 className="alfa">McKingQueen Burger</h2>
+          <p className="neue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero repellat ullam id at molestias reiciendis, dolorum culpa delectus. Similique sunt praesentium dolore quia! Culpa natus fugit eveniet asperiores repellendus cumque!
+          </p>
+          <button className="btn about-readmore">Read More</button>
+        </div>
+        <div className="about-right">
+          <img src="./images/about.png" alt="burger" className="about-img" />
+        </div>
       </div>
 
       <div id="contact">
