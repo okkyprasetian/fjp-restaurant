@@ -22,22 +22,22 @@ function App() {
       </div>
 
       <div id="products">
-        <h2>CHOOSE & ENJOY</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae nihil similique excepturi nemo cum, modi delectus minus possimus sequi sunt?</p>
+        <h2 className="alfa">CHOOSE & ENJOY</h2>
+        <p className="neue">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae nihil similique excepturi nemo cum, modi delectus minus possimus sequi sunt?</p>
         <div className="cards">
           <div className="card">
-            <div className="card-logo"></div>
-            <h5 className="card-title">Luger Burger</h5>
+            <div className="card-logo"><img src="./images/s2.png" alt="burger" className="card-img" /></div>
+            <h5 className="card-title">Big Beef Burger</h5>
             <button className="btn card-order">Order Now</button>
           </div>
           <div className="card">
-            <div className="card-logo"></div>
-            <h5 className="card-title">Luger Burger</h5>
+            <div className="card-logo"><img src="./images/s1.png" alt="burger" className="card-img" /></div>
+            <h5 className="card-title">Medium Beef Burger</h5>
             <button className="btn card-order">Order Now</button>
           </div>
           <div className="card">
-            <div className="card-logo"></div>
-            <h5 className="card-title">Luger Burger</h5>
+            <div className="card-logo"><img src="./images/s2.png" alt="burger" className="card-img" /></div>
+            <h5 className="card-title">Small Beef Burger</h5>
             <button className="btn card-order">Order Now</button>
           </div>
         </div>
